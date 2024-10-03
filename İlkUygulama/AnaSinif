@@ -1,0 +1,27 @@
+package YeniPkg;
+//ÖZELLİK TANIMLA
+public class AnaSinif {
+	private String isim;
+	private int yas;
+	private String meslek;
+//YAPILANDIRMA
+	public AnaSinif(String isim, int yas,String meslek) {
+		this.isim=isim;
+		this.yas=yas;
+		this.meslek=meslek;
+
+		}
+//STATİK METOD
+	public static void statikMetot() {
+		  int sabitDeger = 42;
+		  System.out.println("Sabit Değer: " + sabitDeger);
+	}
+	public static void main(String[] args) {
+
+		    statikMetot();
+		}
+
+		
+
+
+}
